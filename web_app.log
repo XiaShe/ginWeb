@@ -241,3 +241,112 @@
 {"level":"INFO","time":"2020-09-27T19:08:05.824+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
 {"level":"DEBUG","time":"2020-09-27T19:08:09.148+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
 {"level":"INFO","time":"2020-09-27T19:08:17.804+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0090401}
+{"level":"INFO","time":"2020-09-27T20:46:39.810+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-09-27T20:46:39.810+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-09-27T20:47:06.662+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-09-27T20:47:21.007+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0110008}
+{"level":"INFO","time":"2020-09-27T21:17:58.269+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-09-27T21:17:58.270+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:18:40.466+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:18:44.936+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0240566}
+{"level":"INFO","time":"2020-10-05T20:19:29.844+0800","caller":"logger/logger.go:81","msg":"/signin","status":200,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0090313}
+{"level":"INFO","time":"2020-10-05T20:34:47.554+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T20:35:12.869+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T20:35:21.095+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:35:21.095+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:35:24.029+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:35:29.341+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009921}
+{"level":"INFO","time":"2020-10-05T20:36:23.716+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:36:23.716+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:36:26.612+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:36:28.671+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010007}
+{"level":"ERROR","time":"2020-10-05T20:36:42.414+0800","caller":"controllers/user.go:25","msg":"SingUpHand with invalid param","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-10-05T20:36:42.414+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010007}
+{"level":"INFO","time":"2020-10-05T20:36:49.463+0800","caller":"logger/logger.go:81","msg":"/signin","status":200,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010002}
+{"level":"INFO","time":"2020-10-05T20:37:48.344+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:37:48.351+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:37:52.688+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:37:55.670+0800","caller":"logger/logger.go:81","msg":"/signin","status":200,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010007}
+{"level":"INFO","time":"2020-10-05T20:38:07.165+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:38:07.165+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:38:10.311+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:42:13.209+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:42:13.209+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:42:16.590+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:42:19.088+0800","caller":"logger/logger.go:81","msg":"/signin","status":200,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001001}
+{"level":"INFO","time":"2020-10-05T20:46:24.212+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.002999}
+{"level":"INFO","time":"2020-10-05T20:46:35.512+0800","caller":"logger/logger.go:81","msg":"/signin","status":200,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010008}
+{"level":"INFO","time":"2020-10-05T20:47:26.241+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:47:26.241+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:47:29.505+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:47:31.778+0800","caller":"logger/logger.go:81","msg":"/signin","status":200,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010031}
+{"level":"INFO","time":"2020-10-05T20:49:37.446+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:49:37.450+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T20:53:47.023+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T20:53:58.200+0800","caller":"logger/logger.go:81","msg":"/signin","status":404,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T20:54:11.300+0800","caller":"logger/logger.go:81","msg":"/signin","status":404,"method":"POST","path":"/signin","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T20:54:29.738+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009995}
+{"level":"INFO","time":"2020-10-05T20:54:34.074+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T20:55:02.985+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T20:56:24.951+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T20:56:24.951+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:10:46.340+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:10:50.832+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009978}
+{"level":"INFO","time":"2020-10-05T21:11:20.279+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010082}
+{"level":"INFO","time":"2020-10-05T21:11:39.526+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010005}
+{"level":"INFO","time":"2020-10-05T21:12:14.579+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"ERROR","time":"2020-10-05T21:12:47.307+0800","caller":"controllers/user.go:69","msg":"LoginHand with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2020-10-05T21:12:47.307+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"ERROR","time":"2020-10-05T21:12:51.702+0800","caller":"controllers/user.go:69","msg":"LoginHand with invalid param","error":"Key: 'ParamLogin.password' Error:Field validation for 'password' failed on the 'required' tag"}
+{"level":"INFO","time":"2020-10-05T21:12:51.702+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:13:45.595+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:13:45.598+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:14:40.678+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:14:45.038+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:16:24.331+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:16:24.331+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:16:28.896+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:16:31.209+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010012}
+{"level":"INFO","time":"2020-10-05T21:17:23.434+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:17:23.438+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:17:26.686+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:17:27.817+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001}
+{"level":"INFO","time":"2020-10-05T21:18:47.491+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:18:47.505+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:18:50.885+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:18:54.219+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:19:07.055+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:19:07.055+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:19:10.225+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:19:14.739+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009985}
+{"level":"INFO","time":"2020-10-05T21:20:22.218+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:20:22.218+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:20:25.560+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:20:27.031+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001001}
+{"level":"INFO","time":"2020-10-05T21:20:38.457+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:20:38.464+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:20:41.710+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:20:43.200+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009996}
+{"level":"INFO","time":"2020-10-05T21:21:10.649+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:21:10.649+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:21:13.885+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:21:16.695+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009998}
+{"level":"INFO","time":"2020-10-05T21:23:38.145+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:23:38.145+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:23:41.412+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:23:48.566+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0007234}
+{"level":"INFO","time":"2020-10-05T21:24:07.591+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:24:27.674+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0009973}
+{"level":"INFO","time":"2020-10-05T21:24:53.454+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:25:14.362+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:25:19.179+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:25:19.179+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:25:22.130+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:25:24.446+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001}
+{"level":"INFO","time":"2020-10-05T21:25:29.542+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:26:06.211+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-05T21:26:10.433+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:26:10.441+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-05T21:26:13.070+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-05T21:27:57.844+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-05T21:27:57.844+0800","caller":"web_app/main.go:100","msg":"Server exiting"}

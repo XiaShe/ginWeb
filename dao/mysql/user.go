@@ -2,6 +2,7 @@ package mysql
 
 import (
 	"crypto/md5"
+	"database/sql"
 	"encoding/hex"
 	"errors"
 	"web_app/models"
@@ -18,11 +19,33 @@ func CheckUserExist(username string) (err error) {
 	var count int
 	err = db.Get(&count, sqlStr, username)
 	if err != nil {
-		return err
+		return errors.New("用户不存在")
 	}
 	if count > 0 {
 		return errors.New("用户已存在")
 	}
+	return
+}
+
+func Login(user *models.User) (err error) {
+	oPassword := user.Password // 登录时输入的密码
+	sqlStr := `select user_id, username, password from user where username = ?`
+	err = db.Get(user, sqlStr, user.Username)
+	// 判断用户名是否存在（是否no rows）
+	if err == sql.ErrNoRows {
+		return errors.New("用户名不存在")
+	}
+
+	if err != nil {
+		return err // 查询数据库失败
+	}
+	// 判断密码是否正确
+	password := encryptPassword(oPassword)
+
+	if password != user.Password {
+		return errors.New("密码错误")
+	}
+
 	return
 }
 

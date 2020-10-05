@@ -8,7 +8,7 @@ import (
 
 // 存放业务逻辑代码
 
-// 用户注册
+// SignUp 用户注册验证
 func SignUp(p *models.ParamSignUp) (err error) {
 
 	// 1. 判断用户是否存在
@@ -28,5 +28,14 @@ func SignUp(p *models.ParamSignUp) (err error) {
 
 	// 3. 保存到数据库
 	return mysql.InsertUser(user)
+}
+
+// SignIn 用户登录验证
+func Login(p *models.ParamLogin) (err error) {
+	user := &models.User{
+		Username: p.Username,
+		Password: p.Password,
+	}
+	return mysql.Login(user)
 
 }
