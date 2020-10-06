@@ -350,3 +350,13 @@
 {"level":"DEBUG","time":"2020-10-05T21:26:13.070+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
 {"level":"INFO","time":"2020-10-05T21:27:57.844+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-10-05T21:27:57.844+0800","caller":"web_app/main.go:100","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-06T15:30:21.903+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-06T15:30:43.424+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0115878}
+{"level":"INFO","time":"2020-10-06T15:30:57.245+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010031}
+{"level":"INFO","time":"2020-10-06T15:31:09.700+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-06T15:31:40.477+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0010019}
+{"level":"ERROR","time":"2020-10-06T15:31:52.712+0800","caller":"controllers/user.go:24","msg":"SingUpHand with invalid param","error":"Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-10-06T15:31:52.712+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-06T15:32:18.556+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.0056861}
+{"level":"INFO","time":"2020-10-06T15:46:20.247+0800","caller":"web_app/main.go:91","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-06T15:46:20.247+0800","caller":"web_app/main.go:100","msg":"Server exiting"}

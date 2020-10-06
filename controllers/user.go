@@ -1,9 +1,8 @@
 package controllers
 
 import (
-	"fmt"
-	"log"
-	"net/http"
+	"errors"
+	"web_app/dao/mysql"
 	"web_app/logic"
 	"web_app/models"
 
@@ -27,34 +26,28 @@ func SignUpHandler(c *gin.Context) {
 		// 判断err是不是validator.ValidationErrors 类型
 		errs, ok := err.(validator.ValidationErrors)
 		if !ok {
-			c.JSON(http.StatusOK, gin.H{
-				"msg": err.Error(),
-			})
+			ResponseError(c, CodeInvalidParam)
 			return
 		}
 
-		// 翻译错误
-		c.JSON(http.StatusOK, gin.H{
-			"msg": removeTopStruct(errs.Translate(trans)), // 将放回的错误格式化
-		})
+		// 将具体错误信息翻译为中文
+		ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
 		return
 	}
 
 	// 2. 业务处理
 	err = logic.SignUp(p)
 	if err != nil {
-		fmt.Println(err.Error())
-		log.Println("user业务处理没啥错误")
-		c.JSON(http.StatusOK, gin.H{
-			"msg": "注册失败",
-		})
+		if errors.Is(err, mysql.ErrorUserExist) { // 如果错误为ErrorUserNotExist
+			ResponseError(c, CodeUserExist)
+			return
+		}
+		ResponseError(c, CodeServerBusy)
 		return
 	}
 
 	// 3. 返回响应
-	c.JSON(http.StatusOK, gin.H{
-		"msg": "Sign up success",
-	})
+	ResponseSuccess(c, nil)
 
 }
 
@@ -71,32 +64,27 @@ func LoginHandler(c *gin.Context) {
 		// 判断err是不是validator.ValidationErrors 类型
 		errs, ok := err.(validator.ValidationErrors)
 		if !ok {
-			c.JSON(http.StatusOK, gin.H{
-				"msg": err.Error(),
-			})
+			ResponseError(c, CodeInvalidParam)
 			return
 		}
 
-		// 翻译错误
-		c.JSON(http.StatusOK, gin.H{
-			"msg": removeTopStruct(errs.Translate(trans)), // 将放回的错误格式化
-		})
+		// 将具体错误信息翻译为中文
+		ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
 		return
 	}
 
 	// 2. 业务处理
 	err = logic.Login(p)
 	if err != nil {
-		fmt.Println(err.Error())
-		c.JSON(http.StatusOK, gin.H{
-			"msg": "用户名或密码错误",
-		})
+		if errors.Is(err, mysql.ErrorUserNotExist) { // 如果错误为ErrorUserNotExist
+			ResponseError(c, CodeUserNotExist)
+			return
+		}
+		ResponseError(c, CodeInvalidPassword)
 		return
 	}
 
 	// 3. 返回响应
-	c.JSON(http.StatusOK, gin.H{
-		"msg": "Login success",
-	})
+	ResponseSuccess(c, nil)
 
 }
