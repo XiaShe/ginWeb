@@ -387,3 +387,14 @@
 {"level":"INFO","time":"2020-10-07T20:56:07.131+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0}
 {"level":"INFO","time":"2020-10-07T20:56:10.674+0800","caller":"web_app/main.go:90","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-10-07T20:56:10.674+0800","caller":"web_app/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-08T15:34:07.124+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-08T15:34:34.965+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-08T15:34:48.778+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-08T15:35:11.973+0800","caller":"web_app/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-08T15:35:11.975+0800","caller":"web_app/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-08T15:39:04.735+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-08T15:39:28.729+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-08T15:40:01.188+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-08T15:41:20.671+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-08T15:41:42.732+0800","caller":"web_app/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-08T15:41:42.740+0800","caller":"web_app/main.go:99","msg":"Server exiting"}
