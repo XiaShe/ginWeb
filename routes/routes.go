@@ -35,6 +35,7 @@ func Setup(mode string) *gin.Engine {
 		v1.GET("/community", controllers.CommunityHandler)           // 社区列表详情
 		v1.GET("/community/:id", controllers.CommunityDetailHandler) //
 
+		v1.POST("/post", controllers.CreatePostHandler)
 	}
 
 	return r
