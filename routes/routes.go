@@ -27,15 +27,16 @@ func Setup(mode string) *gin.Engine {
 	// 应用中间件
 	/*
 		JWTAuthMiddleware中间件 会判断请求头中是否有有效的 JWT token
-		请求头存在有效token方能进行下一步操
+		请求头存在有效token方能进行下一步操作
 	*/
 	v1.Use(middlewares.JWTAuthMiddleware())
 
 	{
 		v1.GET("/community", controllers.CommunityHandler)           // 社区列表详情
-		v1.GET("/community/:id", controllers.CommunityDetailHandler) //
+		v1.GET("/community/:id", controllers.CommunityDetailHandler) // 不同社区详情
 
-		v1.POST("/post", controllers.CreatePostHandler)
+		v1.POST("/post", controllers.CreatePostHandler)       // 创建帖子
+		v1.GET("/post/:id", controllers.GetPostDetailHandler) // 获得帖子详情信息
 	}
 
 	return r
