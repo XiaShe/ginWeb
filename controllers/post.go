@@ -60,3 +60,20 @@ func GetPostDetailHandler(c *gin.Context) {
 	// 3. 返回响应
 	ResponseSuccess(c, data)
 }
+
+// GetPostListHandler 获取帖子列表
+func GetPostListHandler(c *gin.Context) {
+	// 获取分页参数，显示的页数是page，每页显示的条目数为size
+	page, size := getPageInfo(c)
+
+	// 获取数据
+	data, err := logic.GetPostList(page, size)
+	if err != nil {
+		zap.L().Error("logic.GetPostList() failed", zap.Error(err))
+		return
+	}
+
+	// 返回响应
+	ResponseSuccess(c, data)
+
+}
